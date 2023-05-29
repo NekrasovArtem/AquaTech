@@ -251,12 +251,17 @@ main h3 {
 }
 .card3 {
     width: 320px;
-    padding: 10px 0 0 0;
+    padding: 12px 0 0 0;
     transition: ease-in-out 500ms;
 }
 .card3:hover {
     transition: ease-in-out 500ms;
     transform: scale(1.1, 1.1);
+}
+.card3 img {
+    align-self: center;
+    justify-self: center;
+    border-radius: 10px;
 }
 .brands-section {
     width: 1400px;
@@ -322,9 +327,11 @@ main h3 {
 }
 .catalog-items img {
     padding: 0 10px 0 10px;
+    width: 230px;
+    height: 230px;
 }
 .catalog-items p {
-    height: 70px;
+    height: 90px;
     font-size: 14px;
 }
 footer {
