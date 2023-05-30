@@ -64,7 +64,7 @@ let noveltys = [
   },
   {
     newproduct: true,
-    id: "",
+    id: "6",
     name: "СМЕСИТЕЛЬ ДЛЯ ВАННЫ «ORANGE» LUTZ M04-100B ЧЁРНЫЙ МАТОВЫЙ",
     cost: "9 490",
     image: "content/mixer1.png",
@@ -73,7 +73,7 @@ let noveltys = [
   },
   {
     newproduct: false,
-    id: "",
+    id: "7",
     name: "СМЕСИТЕЛЬ ДЛЯ РАКОВИНЫ «BRAVAT» REAL F1121179CP ХРОМ",
     cost: "6 870",
     image: "content/mixer2.png",
@@ -82,7 +82,7 @@ let noveltys = [
   },
   {
     newproduct: false,
-    id: "",
+    id: "8",
     name: "СМЕСИТЕЛЬ ДЛЯ РАКОВИНЫ «ORANGE» LUTZ M04-121B ЧЁРНЫЙ МАТОВЫЙ",
     cost: "9 990",
     image: "content/mixer3.png",
@@ -91,7 +91,7 @@ let noveltys = [
   },
   {
     newproduct: false,
-    id: "",
+    id: "9",
     name: "СМЕСИТЕЛЬ С ГИГИЕНИЧЕСКИМ ДУШЕМ «ALLEN BRAU» PRIORITY ЧЁРНЫЙ МАТОВЫЙ",
     cost: "14 060",
     image: "content/mixer4.png",
@@ -100,7 +100,7 @@ let noveltys = [
   },
   {
     newproduct: false,
-    id: "",
+    id: "10",
     name: "СМЕСИТЕЛЬ ДЛЯ ВАННЫ «ORANGE» LOOP M26-100CR ХРОМ",
     cost: "3 490",
     image: "content/mixer5.png",
@@ -109,7 +109,7 @@ let noveltys = [
   },
   {
     newproduct: true,
-    id: "",
+    id: "11",
     name: "ВАННА АКРИЛОВАЯ «RADOMIR» ГРАНАДА 185/110 С КАРКАСОМ БЕЗ СИФОНА БЕЛАЯ С МОЛДИНГОМ ХРОМ",
     cost: "96 511",
     image: "content/bath1.png",
@@ -118,7 +118,7 @@ let noveltys = [
   },
   {
     newproduct: false,
-    id: "",
+    id: "12",
     name: "ВАННА АКРИЛОВАЯ КОМПЛЕКТ «RADOMIR» ИРМА 160/105 БЕЛАЯ ЛЕВАЯ/ПРАВАЯ",
     cost: "34 467",
     image: "content/bath2.png",
@@ -127,7 +127,7 @@ let noveltys = [
   },
   {
     newproduct: false,
-    id: "",
+    id: "13",
     name: "ВАННА АКРИЛОВАЯ «ART&MAX» AM-203 160/75 С НОЖКАМИ С СИФОНОМ БЕЛАЯ",
     cost: "63 900",
     image: "content/bath3.png",
@@ -136,7 +136,7 @@ let noveltys = [
   },
   {
     newproduct: false,
-    id: "",
+    id: "14",
     name: "ВАННА АКРИЛОВАЯ КОМПЛЕКТ «1MARKA» DIANA 170/105 БЕЛАЯ ЛЕВАЯ/ПРАВАЯ",
     cost: "39 610",
     image: "content/bath4.png",
@@ -145,7 +145,7 @@ let noveltys = [
   },
   {
     newproduct: false,
-    id: "",
+    id: "15",
     name: "ВАННА АКРИЛОВАЯ «ROCA» EASY 170/75 (ZRU9302899) БЕЗ ОПОР БЕЗ СИФОНА БЕЛАЯ",
     cost: "21 990",
     image: "content/bath5.png",
@@ -154,7 +154,7 @@ let noveltys = [
   },
   {
     newproduct: true,
-    id: "",
+    id: "16",
     name: "Душевая кабина «TRITON» ХИТ А 88/88 низкий поддон прозрачная/белая",
     cost: "19 840",
     image: "content/shower1.png",
@@ -163,7 +163,7 @@ let noveltys = [
   },
   {
     newproduct: false,
-    id: "",
+    id: "17",
     name: "ДУШЕВАЯ КАБИНА «TRITON» ТОП 88/88 НИЗКИЙ ПОДДОН ПРОЗРАЧНАЯ/ЧЁРНАЯ",
     cost: "24 290",
     image: "content/shower2.png",
@@ -172,7 +172,7 @@ let noveltys = [
   },
   {
     newproduct: false,
-    id: "",
+    id: "18",
     name: "ДУШЕВОЙ УГОЛОК «RIHO» NOVIK Z201 90/90 КВАДРАТНЫЙ ПРОЗРАЧНЫЙ",
     cost: "83 076",
     image: "content/shower3.png",
@@ -181,7 +181,7 @@ let noveltys = [
   },
   {
     newproduct: false,
-    id: "",
+    id: "19",
     name: "ДУШЕВАЯ КАБИНА «TRITON» СТАНДАРТ ДН4 100/100 СРЕДНИЙ ПОДДОН АКВА-МОЗАИКА/БЕЛАЯ",
     cost: "31 390",
     image: "content/shower4.png",
@@ -190,7 +190,7 @@ let noveltys = [
   },
   {
     newproduct: false,
-    id: "",
+    id: "20",
     name: "ДУШЕВОЙ УГОЛОК «WASSERKRAFT» LIPPE 120/90 ПРЯМОУГОЛЬНЫЙ ПРОЗРАЧНЫЙ/ХРОМ УНИВЕРСАЛЬНЫЙ",
     cost: "49 950",
     image: "content/shower5.png",
@@ -199,7 +199,7 @@ let noveltys = [
   },
   {
     newproduct: false,
-    id: "",
+    id: "21",
     name: "УНИТАЗ КОМПАКТ БЕЗОБОДКОВЫЙ «ORANS» WM-9902 БЕЛЫЙ С СИДЕНЬЕМ ДЮРОПЛАСТ С МИКРОЛИФТОМ БЕЛОЕ",
     cost: "19 800",
     image: "content/toilet1.png",
@@ -208,7 +208,7 @@ let noveltys = [
   },
   {
     newproduct: false,
-    id: "",
+    id: "22",
     name: "ПОДВЕСНОЕ БИДЕ «GROSSMAN» GROSSMAN GR-B4412 БЕЛОЕ",
     cost: "5 700",
     image: "content/toilet2.png",
@@ -217,7 +217,7 @@ let noveltys = [
   },
   {
     newproduct: false,
-    id: "",
+    id: "23",
     name: "ПОДВЕСНОЕ БИДЕ «VITRA» PLURAL 7831B483-0288 ЧЕРНОЕ МАТОВОЕ",
     cost: "76 690",
     image: "content/toilet3.png",
@@ -226,7 +226,7 @@ let noveltys = [
   },
   {
     newproduct: false,
-    id: "",
+    id: "24",
     name: "ПОДВЕСНОЙ УНИТАЗ БЕЗОБОДКОВЫЙ «OWL 1975» VIND CIRKEL-H ЧЕРНЫЙ С СИДЕНЬЕМ ДЮРОПЛАСТ",
     cost: "16 950",
     image: "content/toilet4.png",
@@ -235,7 +235,7 @@ let noveltys = [
   },
   {
     newproduct: false,
-    id: "",
+    id: "25",
     name: "УНИТАЗ КОМПАКТ БЕЗОБОДКОВЫЙ «CERSANIT» NATURE 011 БЕЛЫЙ С СИДЕНЬЕМ ДЮРОПЛАСТ",
     cost: "12 990",
     image: "content/toilet5.png",
