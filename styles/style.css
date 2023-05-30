@@ -12,6 +12,9 @@ body {
     gap: 50px;
     background-color: #F9F9F9;
 }
+.logo a {
+    text-decoration: none;
+}
 .menu {
     position: fixed;
     top: -100%;
@@ -333,6 +336,100 @@ main h3 {
 .catalog-items p {
     height: 90px;
     font-size: 14px;
+}
+.login-div {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+.login-div div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+.login-div button {
+    width: 200px;
+    font-size: 20px;
+}
+.login-div input {
+    width: 100%;
+}
+.admin-page {
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.earnings {
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+.earnings-card {
+    width: 400px;
+    border-radius: 10px;
+    background-color: #3f81e6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 24px;
+}
+.earnings-card div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.earnings img {
+    width: 100px;
+    height: 100px;
+}
+.admin-diagram {
+    width: 1400px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+.admin-exit {
+    color: red;
+}
+svg {
+    overflow: visible;
+    margin: 4em;
+}
+
+line, polyline {
+    fill: none;
+    stroke: black;
+}
+
+.x text {
+    text-anchor: middle;
+}
+
+.y text {
+    text-anchor: end;
 }
 footer {
     width: 100%;

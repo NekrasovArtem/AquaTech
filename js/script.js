@@ -244,6 +244,16 @@ let noveltys = [
   },
 ];
 
+function login() {
+  const name = document.querySelector("#input_name").value,
+  password = document.querySelector("#input_password").value;
+  if (name == 'admin') {
+    if (password == 'admin') {
+      window.open('admin.html')
+    }
+  }
+}
+
 let placeholder = document.querySelector("#novinki");
 let catalog = document.querySelector("#catalog_items");
 if (placeholder) {

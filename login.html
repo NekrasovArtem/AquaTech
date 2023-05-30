@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Каталог</title>
+    <title>Вход в аккаунт</title>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -48,7 +48,7 @@
             </div>
             <div class="right-head">
                 <div>
-                    <a href="admin.html">Войти </a>
+                    <a href="login.html">Войти </a>
                     <a href="#">/ Регистрация</a>
                 </div>
                 <img src="content/shop-cart.png" id="open_cart" alt="Корзина">
@@ -56,45 +56,18 @@
         </div>
     </header>
     <main>
-        <div class="catalog-page">
-            <div class="catalog-filter">
-                <form name="filter">
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                            <input class="bath form-check-input me-1 " type="checkbox" id="bath">
-                            <label class="form-check-label" for="bath">Ванны</label>
-                        </li>
-                        <li class="list-group-item">
-                            <input class="showers form-check-input me-1 " type="checkbox" id="showers">
-                            <label class="form-check-label" for="showers">Душевые</label>
-                        </li>
-                        <li class="list-group-item">
-                            <input class="shells form-check-input me-1 " type="checkbox" id="shells">
-                            <label class="form-check-label" for="shells">Раковины</label>
-                        </li>
-                        <li class="list-group-item">
-                            <input class="toilet form-check-input me-1 " type="checkbox" id="toilet">
-                            <label class="form-check-label" for="toilet">Унитазы</label>
-                        </li>
-                        <li class="list-group-item">
-                            <input class="mixers form-check-input me-1 " type="checkbox" id="mixers">
-                            <label class="form-check-label" for="mixers">Смесители</label>
-                        </li>
-                        <li class="list-group-item">
-                            <input class="towel_warmer form-check-input me-1 " type="checkbox" id="towel_warmer">
-                            <label class="form-check-label" for="towel_warmer">Полотенцесушители</label>
-                        </li>
-                        <li class="list-group-item">
-                            <input class="tile form-check-input me-1 " type="checkbox" id="tile">
-                            <label class="form-check-label" for="tile">Плитка</label>
-                        </li>
-                    </ul>
-                    <button class="btn btn-primary" id="buttonFilter">Применить</button>
-                </form>
+        <div class="login-div">
+            <div>
+                <div class="login-name">
+                    <a>Логин:</a>
+                    <input type="text" id="input_name">
+                </div>
+                <div class="login-password">
+                    <a>Пароль:</a>
+                    <input type="password" id="input_password">
+                </div>
             </div>
-            <div class="catalog-items" id="catalog_items">
-                
-            </div>
+            <button class="btn btn-primary" id="login_button" onclick="login()">Войти</button>
         </div>
     </main>
     <footer>
