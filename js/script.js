@@ -246,11 +246,10 @@ let noveltys = [
 
 function login() {
   const name = document.querySelector("#input_name").value,
-  password = document.querySelector("#input_password").value;
-  if (name == 'admin') {
-    if (password == 'admin') {
-      window.open('admin.html')
-    }
+    password = document.querySelector("#input_password").value;
+  if (name == 'admin' && password == 'admin') {
+    window.open('admin.html')
+
   }
 }
 
@@ -304,6 +303,26 @@ function renderBusket() {
           </div>`;
   });
   busketDiv.innerHTML = out;
+}
+
+const table = document.querySelector('#table');
+if (table) {
+  renderTable(noveltys)
+}
+function renderTable() {
+  let out = "";
+  noveltys.forEach((novelty) => {
+    out += `<tr>
+    <td class="column1">${novelty.id}</td>
+    <td class="column2">
+      <img src="${novelty.image}" alt="${novelty.alt}" />
+    </td>
+    <td class="column3">${novelty.name}</td>
+    <td class="column4">${novelty.cost} ₽</td>
+    <td calss="column5"><button><a>Удалить</a></button></td>
+  </tr>`;
+  });
+  table.innerHTML = out;
 }
 
 const filterCatalog = [...noveltys];

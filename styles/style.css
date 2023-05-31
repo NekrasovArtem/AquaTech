@@ -441,14 +441,54 @@ footer {
     background-color: #3B629C;
 }
 
-
-
+.delivery-page {
+    width: 1400px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 30px;
+    text-indent: 50px;
+    font-size: 24px;
+    text-align: justify;
+}
+.delivery-map {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.delivery-map div:nth-child(1) {
+    width: calc(100% - 600px);
+}
+.delivery-map div:nth-child(2) {
+    width: 600px;
+}
+.delivery-page ul {
+    margin-left: 20px;
+    text-indent: 0;
+    font-weight: 700;
+}
+.delivery-page li {
+    font-weight: 100;
+    margin-left: 25px;
+}
+.delivery-page a {
+    font-weight: 700;
+    color: rgb(214, 23, 23);
+}
+.delivery-page h3 {
+    text-align: left;
+    text-indent: 50px;
+}
+.info-page {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .container-table100 {
     width: 100%;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -460,7 +500,6 @@ footer {
 }
 
 table {
-    border-spacing: 1;
     border-collapse: collapse;
     background: #fff;
     border-radius: 10px;
@@ -532,27 +571,30 @@ tbody tr:hover {
 }
 
 .column1 {
-    width: 120px;
-    padding-left: 40px;
-}
-.column1 img {
-    width: 100px;
-    height: auto;
-    margin: 5px 0 5px 0;
+    width: 20px;
+    padding-left: 30px;
 }
 .column2 {
-    width: 20px;
+    width: 50px;
+}
+.column2 img {
+    width: 50px;
+    height: 50px;
+    margin: 5px 0 5px 0;
 }
 
 .column3 {
-    width: 345px;
+    width: 700px;
 }
 
 .column4 {
-    width: 50px;
+    width: 120px;
     text-align: left;
 }
-
+.column5 {
+    width: 80px;
+    text-align: left;
+}
 @media screen and (max-width: 992px) {
     table {
         display:block;
@@ -581,7 +623,6 @@ tbody tr:hover {
     }
 
     table tbody tr td:before {
-        font-family: OpenSans-Regular;
         font-size: 14px;
         color: #999;
         line-height: 1.2;
