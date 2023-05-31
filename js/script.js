@@ -268,9 +268,9 @@ function renderCatalogs(products, selector) {
           <div class=" ${novelty.class} card card3">
           <img src=" ${novelty.image} " class="card-img-top" alt=" ${novelty.alt} ">
              <div class="card-body">
-                <p class="card-text"> ${novelty.name} </p>
+                <a class="card-text" href="product.html"> ${novelty.name} </a>
                 <h4 class="card-title"> ${novelty.cost} ₽</h4>
-                <a class="btn btn-primary" onclick="add_to_cart(${novelty.id})">В корзину</a>
+                <button class="btn btn-primary" onclick="add_to_cart(${novelty.id})">В корзину</button>
              </div>
           </div>
     `;
@@ -296,9 +296,9 @@ function renderBusket() {
     out += `<div class=" ${novelty.class} card card3">
           <img src=" ${novelty.image} " class="card-img-top" alt=" ${novelty.alt} ">
              <div class="card-body">
-                <p class="card-text"> ${novelty.name} </p>
+                <a class="card-text" onclick="transition()"> ${novelty.name} </a>
                 <h4 class="card-title"> ${novelty.cost} ₽</h4>
-                <a class="btn btn-primary" onclick="add_to_cart(${novelty.id})">В корзину</a>
+                <button class="btn btn-primary" onclick="add_to_cart(${novelty.id})">В корзину</button>
              </div>
           </div>`;
   });
