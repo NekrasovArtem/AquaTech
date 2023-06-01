@@ -293,14 +293,16 @@ function renderBusket() {
   const busketDiv = document.querySelector(".busket_items");
   let out = "";
   busketArr.forEach((novelty) => {
-    out += `<div class=" ${novelty.class} card card3">
-          <img src=" ${novelty.image} " class="card-img-top" alt=" ${novelty.alt} ">
-             <div class="card-body">
-                <a class="card-text" onclick="transition()"> ${novelty.name} </a>
-                <h4 class="card-title"> ${novelty.cost} ₽</h4>
-                <button class="btn btn-primary" onclick="add_to_cart(${novelty.id})">В корзину</button>
-             </div>
-          </div>`;
+    out += `
+        <div class="${novelty.class} busket-item">
+          <img src="${novelty.image}" alt="${novelty.alt}">
+          <div class="busket-item-name">
+            <a>${novelty.name}</a>
+            <h2>${novelty.cost} ₽</h2>
+            <button class="btn btn-danger" onclick="delete_from_cart(${novelty.id})">Удалить</button>
+          </div>
+        </div>
+    `;
   });
   busketDiv.innerHTML = out;
 }
