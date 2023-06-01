@@ -56,7 +56,7 @@ let noveltys = [
   {
     newproduct: true,
     id: "5",
-    name: "ТУМБА С РАКОВИНОЙ «AQUANET» АЛВИТА NEW 100 (FLAT 100) ПОДВЕСНАЯ АНТРАЦИТ МАТОВЫЙ",
+    name: "ТУМБА С РАКОВИНОЙ «AQUANET» АЛВИТА NEW 100 (FLAT 100) АНТРАЦИТ МАТОВЫЙ",
     cost: "36 297",
     image: "content/shells5.png",
     class: "shells",
@@ -110,7 +110,7 @@ let noveltys = [
   {
     newproduct: true,
     id: "11",
-    name: "ВАННА АКРИЛОВАЯ «RADOMIR» ГРАНАДА 185/110 С КАРКАСОМ БЕЗ СИФОНА БЕЛАЯ С МОЛДИНГОМ ХРОМ",
+    name: "ВАННА АКРИЛОВАЯ «RADOMIR» ГРАНАДА 185/110 С КАРКАСОМ БЕЗ СИФОНА БЕЛАЯ",
     cost: "96 511",
     image: "content/bath1.png",
     class: "bath",
