@@ -249,7 +249,20 @@ function login() {
     password = document.querySelector("#input_password").value;
   if (name == 'admin' && password == 'admin') {
     window.open('admin.html')
-
+    window.close("login.html")
+  }
+}
+function registration() {
+  const name = document.querySelector("#reg_name"),
+  password = document.querySelector("#reg_password"),
+  password_again = document.querySelector("#reg_password_again"),
+  check = document.querySelector("#check"),
+  text = document.querySelector("#error")
+  if (name  && check.checked && password.value == password_again.value) {
+    window.open("login.html")
+    window.close("registration.html")
+  } else {
+    text.style.display = "block";
   }
 }
 
@@ -305,6 +318,12 @@ function renderBusket() {
     `;
   });
   busketDiv.innerHTML = out;
+}
+
+function delete_all_cart() {
+  const busketDiv = document.querySelector(".busket_items");
+  localStorage.removeItem("busket");
+  busketDiv.innerHTML = "";
 }
 
 const table = document.querySelector('#table');

@@ -163,12 +163,18 @@ body {
     font-size: 14px;
 }
 .busket_btn button {
-    padding: 5px 50px 5px 50px;
+    padding: 5px 20px 5px 20px;
     color: #ffffff;
     border: none;
-    background-color: #1062df;
     border-radius: 10px;
     box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+}
+.btn-delete {
+    background-color: rgb(238, 61, 61);
+}
+.btn-buy {
+    background-color: #1770F4;
 }
 header {
     width: 100%;
@@ -292,6 +298,8 @@ main h3 {
     align-self: center;
 }
 .card-text {
+    display: block;
+    height: 120px;
     text-decoration: none;
     color: black;
     cursor: pointer;
@@ -367,7 +375,7 @@ main h3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
 }
 .catalog-items .card3 {
     width: 15rem;
@@ -652,7 +660,30 @@ footer {
     justify-content: center;
     flex-wrap: wrap;
 }
-
+.registarion-div {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+.reg-name {
+    margin-bottom: 20px;
+}
+.reg-password-again {
+    margin-bottom: 20px;
+}
+#error {
+    display: none;
+    color: red;
+}
 .wrap-table100 {
     width: 1400px;
 }
@@ -829,6 +860,10 @@ tbody tr:hover {
 @media screen and (max-width: 375px) {
     body {
         gap: 20px;
+        min-height: 100vh;
+    }
+    .menu {
+        height: 100vh;
     }
     .menu-nav {
         position: fixed;
@@ -844,6 +879,7 @@ tbody tr:hover {
     }
     .busket {
         width: 375px;
+        height: 100%;
     }
 
 
@@ -889,7 +925,10 @@ tbody tr:hover {
         align-items: center;
         gap: 5px;
     }
-    .right-head a {
+    .right-head a:nth-child(1) {
+        display: none;
+    }
+    .right-head a:nth-child(2) {
         display: none;
     }
     .right-head div {
@@ -905,6 +944,7 @@ tbody tr:hover {
     }
     main {
         width: 375px;
+        min-height: 550px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1024,7 +1064,44 @@ tbody tr:hover {
     .info-page ul {
         padding-left: 10px;
     }
-
+    .bread {
+        display: none;
+    }
+    .product-page {
+        width: 350px;
+    }
+    .product-page img {
+        width: 350px;
+    }
+    .product {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .product-info {
+        width: 350px;
+        height: 340px;
+    }
+    .product-info h2 {
+        font-size: 18px;
+    }
+    .product-buy button {
+        font-size: 16px;
+        border-radius: 20px;
+    }
+    .product-information {
+        font-size: 14px;
+    }
+    .product-specifications {
+        width: 350px;
+        height: auto;
+    }
+    .specifications-row {
+        width: inherit;
+        gap: 10px;
+    }
+    .specifications-column {
+        width: 170px;
+    }
     footer {
         padding: 20px 0 20px 0;
         height: auto;

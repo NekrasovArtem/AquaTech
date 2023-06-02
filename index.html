@@ -29,11 +29,12 @@
                 <a>Корзина</a>
                 <span id="close_btn"></span>
             </div>
-            <div class="busket_items">
+            <div class="busket_items" id="busket_items">
                 
             </div>
             <div class="busket_btn">
-                <button>Оформить заказ</button>
+                <button class="btn-delete" onclick="delete_all_cart()">Очистить</button>
+                <button class="btn-buy">Оформить</button>
             </div>
         </div>
         <div class="head">
@@ -51,8 +52,8 @@
             <div class="right-head">
                 <div>
                     <a href="login.html">Войти </a>
-                    <a href="#">/ Регистрация</a>
-                    <img class="user-img" src="content/userM.svg" alt="Войти">
+                    <a href="registration.html">/ Регистрация</a>
+                    <a href="registration.html"><img class="user-img" src="content/userM.svg" alt="Войти"></a>
                 </div>
                 <img src="content/shop-cart.png" id="open_cart" alt="Корзина">
             </div>
